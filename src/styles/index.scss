@@ -1,3 +1,15 @@
+@import './header';
+@import './stars';
+@import './card';
+@import './catalog';
+
+html {
+  $text-color-main: #060b35;
+  $text-color-secondary: #616070;
+}
+
 body {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
   margin: 0;
 }
