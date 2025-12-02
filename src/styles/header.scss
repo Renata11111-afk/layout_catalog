@@ -12,32 +12,32 @@ $text-color-main: #060b35;
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
-}
 
-.logo {
-  padding: 0;
-  height: 40px;
-  width: 40px;
-  display: block;
+  &__logo {
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    display: block;
+  }
 }
 
 .nav {
-  &-list {
+  &__list {
     display: flex;
     margin: 0;
     padding: 0;
   }
 
-  &-item {
+  &__item {
     display: flex;
     list-style: none;
   }
 
-  &-item + &-item {
+  &__item + &__item {
     margin-left: 20px;
   }
 
-  &-link {
+  &__link {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -45,6 +45,7 @@ $text-color-main: #060b35;
     align-items: center;
     height: 60px;
     color: $text-color-main;
+    transition: color 0.3s ease;
 
     &:hover {
       color: $main-color;
